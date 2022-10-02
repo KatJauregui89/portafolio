@@ -5,3 +5,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --purple: #8e7bef;
+    --black: #222222;
+    --yellow: #fcda68;
+    --gray: #423F40;
+    --white: #FFFFFF;
+    --lightgray: #f9f5f2;
+}
