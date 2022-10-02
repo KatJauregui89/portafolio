@@ -25,6 +25,58 @@ img{
     max-width: 100%;
 }
 
+.nav{
+    display: flex;
+    padding: 0.5rem 1rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+
+}
+
+label>img{
+    width: 30px;
+}
+
+#btn-menu{
+    visibility: hidden;
+}
+
+.nav-menu{
+    position: absolute;
+    background-color: var(--lightgray);
+    width: 100%;
+    right: 0;
+    top: 80px;
+    min-height: calc(100vh -80px);
+    padding: 1.5rem 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-item{
+    list-style: none;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.nav-item>a{
+    text-decoration: none;
+    color: var(--gray);
+}
+
+.nav-item>a:hover{
+    text-decoration: underline;
+
+    color: var(--gray);
+}
+
+#btn-menu:checked ~ .nav-menu{
+    display: flex;
+}
+
 .icon{
     width: 24px;
 }
