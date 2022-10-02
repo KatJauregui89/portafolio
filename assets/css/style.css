@@ -46,14 +46,16 @@ label>img{
     position: absolute;
     background-color: var(--lightgray);
     width: 100%;
-    right: 0;
+    /* right: 0; */
     top: 80px;
     min-height: calc(100vh -80px);
     padding: 1.5rem 1rem;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    left: -100%;
+    transition: left 0.3s linear;
 }
 
 .nav-item{
@@ -69,14 +71,34 @@ label>img{
 
 .nav-item>a:hover{
     text-decoration: underline;
-
     color: var(--gray);
 }
 
 #btn-menu:checked ~ .nav-menu{
-    display: flex;
+    left: 0;
 }
 
 .icon{
     width: 24px;
 }
+
+@media screen and (min-width: 678px){
+    label{
+        display: none;
+    }
+    .nav-menu{
+        position: static;
+        flex-direction: row;
+        min-height: auto;
+        justify-content: end;
+        background-color: transparent;
+        color: var(--black);
+    }
+
+    .nav-item{
+        padding-left: 1.25rem;
+        font-size: 1rem;
+    }
+}
+
+/* Add media query to hamb menu */
