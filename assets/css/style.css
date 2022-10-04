@@ -83,6 +83,8 @@ label>img{
 }
 
 @media screen and (min-width: 678px){
+
+/* Add media query to hamb menu */
     label{
         display: none;
     }
@@ -101,4 +103,10 @@ label>img{
     }
 }
 
-/* Add media query to hamb menu */
+.header-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+
