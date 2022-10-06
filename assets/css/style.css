@@ -132,10 +132,51 @@ label>img{
     display: none;
 }
 
-
 .header-image{
     width: 65%;
 }
+
+.section-exp{
+    background-color: var(--yellow);
+}
+
+.exp-titles{
+    padding: 1rem;
+}
+
+.exp-titles > p{
+    color: var(--gray);
+}
+
+.exp-container{
+    padding: 1rem;
+}
+
+.exp-info{
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin: .5rem;
+    padding-bottom: 0.5rem;
+}
+
+.exp-info.uno, .exp-info.dos{
+    border-bottom: 1px solid var(--gray);
+}
+
+.fecha{
+    color: var(--gray);
+}
+
+.info--titles{
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-puesto{
+    font-weight: bold;
+}
+
 
 @media screen and (min-width: 678px){
 
