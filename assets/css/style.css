@@ -140,6 +140,10 @@ label>img{
     .btn-header.mobile{
         display: none;
     }
+
+    .header-info{
+        flex-direction: row;
+    }
 }
 
 
