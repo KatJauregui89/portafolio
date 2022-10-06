@@ -109,6 +109,10 @@ label>img{
     padding: 0.5rem 2rem;
 }
 
+.btn-header.desktop{
+    display: none;
+}
+
 @media screen and (min-width: 678px){
 
 /* Add media query to hamb menu */
@@ -127,6 +131,14 @@ label>img{
     .nav-item{
         padding-left: 1.25rem;
         font-size: 1rem;
+    }
+
+    .btn-header.desktop{
+        display: flex;
+    }
+
+    .btn-header.mobile{
+        display: none;
     }
 }
 
