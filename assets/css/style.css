@@ -101,7 +101,12 @@ label>img{
 }
 
 .btn-header{
-    align-self: end;
+    display: flex;
+    background-color: var(--purple);
+    color: var(--white);
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 2rem;
 }
 
 @media screen and (min-width: 678px){
