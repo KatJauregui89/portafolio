@@ -92,6 +92,19 @@ label>img{
     gap: 1.5rem;
 }
 
+.text--accent{
+    color: var(--purple);
+}
+
+.social-container{
+    display: flex;
+    /* No se están aplicando */
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 350px;
+    margin: auto;
+}
+
 .header-text{
     display: flex;
     flex-direction: column;
@@ -100,17 +113,28 @@ label>img{
     align-items: center;
 }
 
+.header-text > p{
+    color: var(--gray);
+}
+
 .btn-header{
     display: flex;
     background-color: var(--purple);
     color: var(--white);
     align-items: center;
+    justify-content: center;
     gap: 1rem;
     padding: 0.5rem 2rem;
+    width: 65%;
 }
 
 .btn-header.desktop{
     display: none;
+}
+
+
+.header-image{
+    width: 65%;
 }
 
 @media screen and (min-width: 678px){
