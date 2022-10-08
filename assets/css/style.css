@@ -201,8 +201,17 @@ label>img{
 }
 
 .img-habilidades{
-    width: 55px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1rem;
+    padding: .25rem;
+    background-color: var(--lightgray);
+    border-radius: 15%;
 }
+
+/* .img-habilidades.js{
+    margin-bottom: 1rem;
+} */
 
 .portafolio{
     padding: 1rem;
@@ -323,6 +332,7 @@ footer{
         flex-direction: row;
         align-items: center;
         gap: 1rem;
+        align-items: baseline;
     }
 
     .portafolio-container{
