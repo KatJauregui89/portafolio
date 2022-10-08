@@ -205,6 +205,68 @@ label>img{
     width: 55px;
 }
 
+.portafolio{
+    padding: 1rem;
+}
+
+.portafolio-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.img-portafolio{
+    max-width: 300px;
+    /* Cuando aplico esto, no se alinean al centro las imagenes */
+}
+
+.section-portafolio{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+}
+
+.section-portafolio > h4{
+    color: var(--purple);
+    font-weight: 500;
+}
+
+.section-contact{
+    padding: 1rem;
+}
+
+.contact-div{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.contact{
+    gap: 0.5rem;
+    margin: 2rem;
+    /* max-width: 50%; */
+    width: 200px;
+    /* No se aplica el mismo tamaño para los contenedores */
+}
+
+.contact > img{
+    background-color: var(--lightgray);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+.contact > small{
+    color: var(--gray);
+}
+
+footer{
+    color: var(--purple);
+    margin: 2rem 1rem;
+    text-align: center;
+}
+
+
 
 @media screen and (min-width: 678px){
 
