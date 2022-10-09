@@ -125,6 +125,7 @@ label>img{
     padding: 0.5rem 2rem;
     width: 65%;
     margin-bottom: 3rem;
+    border: transparent;
 }
 
 .btn-header.desktop{
@@ -139,6 +140,11 @@ label>img{
 .section-exp{
     background-color: var(--yellow);
     /* padding: 2rem; */
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 1rem;
 }
 
 .exp-titles{
@@ -172,6 +178,7 @@ label>img{
 .info--titles{
     display: flex;
     flex-direction: column;
+
 }
 
 .exp-puesto{
@@ -209,8 +216,8 @@ label>img{
     border-radius: 15%;
 }
 
-/* .img-habilidades.js{
-    margin-bottom: 1rem;
+/* .img-habilidades.bootstrap{
+    fill: var(--purple);
 } */
 
 .portafolio{
@@ -238,6 +245,9 @@ label>img{
 .section-portafolio > h4{
     color: var(--purple);
     font-weight: 500;
+    font-size: large;
+    /* margin-bottom: 0.75rem; */
+    margin: 2rem 0 0.75rem 0;
 }
 
 .section-contact{
@@ -309,6 +319,19 @@ footer{
         flex-direction: row;
         padding: 0 3rem 2rem 3rem;
         margin-bottom: 2rem;
+        justify-content: space-evenly;
+    }
+
+    .header-text{
+        gap: 3rem;
+    }
+
+    .header-text > p{
+        font-size: 25px;
+    }
+
+    h1{
+        font-size: 50px;
     }
 
     .section-exp{
@@ -328,17 +351,27 @@ footer{
         min-width: 50%;
     }
 
+    .section-habilidades{
+        width: 100%;
+    }
+
     .habilidades-container{
         flex-direction: row;
         align-items: center;
         gap: 1rem;
         align-items: baseline;
+        justify-content: space-evenly;
+    }
+
+    .habilidades-container.logos{
+        align-self: stretch;
     }
 
     .portafolio-container{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        gap: 2rem;
     }
 
     .portafolio{
